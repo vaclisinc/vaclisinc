@@ -1,10 +1,12 @@
 ## About Me
-- Computer Science student at National Tsing Hua University, passionate about software development, machine learning, and entrepreneurship.
+- A junior Computer Science student at National Tsing Hua University (NTHU).
+
+- Passionate about software development, machine learning, and entrepreneurship.
 
 - Active in music technology projects at AHG Music Lab.
 
 ## 🏆 Achievements
-- 2024 SITCON Hackathon — SITCON Group Award Winner (Flutter Diary App)
+- 2024 SITCON Hackathon — SITCON Group Award Winner (Flutter ccDiary App)
 - 2024 WorldQuant Challenge — Silver Level
 
 ## 💻 Skills
