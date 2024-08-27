@@ -1,8 +1,6 @@
 ## About Me
 - A junior Computer Science student at National Tsing Hua University (NTHU).
-
 - Passionate about software development, machine learning, and entrepreneurship.
-
 - Active in music technology projects at AHG Music Lab.
 
 ## 🏆 Achievements
