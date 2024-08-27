@@ -1,6 +1,3 @@
-# Hello, I'm Song-Ze Yu 👋
-A passionate music lover navigating the world of tech.
-
 ## About Me
 - Computer Science student at National Tsing Hua University, passionate about software development, machine learning, and entrepreneurship.
 
