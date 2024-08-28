@@ -22,8 +22,8 @@
 ## 🚀 [Side Projects](https://www.youtube.com/playlist?list=PL0RJ6nWgJqURxHgh0X4TJNPzUIP_jFO3y)
 
 - [ccDiary App](https://github.com/SimonLiu423/cc_diary) (Flutter - SITCON Hackathon winner)
-- [ChatV](https://chatv-vaclis.web.app/index.html) & [jyCanvas](https://vacanvas.web.app/) & [jyBaseball](https://vaclisinc.github.io/baseball/) (Web Development - Full-stack)
-- [Hunger 2050](https://github.com/vaclisinc/Hunger2050) & [jyMario Game](https://github.com/vaclisinc/jyMario) (Game Development - Cocos Creator)
+- [ChatV](https://github.com/vaclisinc/chatV) & [jyBaseball](https://github.com/vaclisinc/jyBaseball) & [jyCanvas](https://github.com/vaclisinc/jyCanvas) (Web Development - Full-stack)
+- [Hunger 2050](https://youtu.be/U4FfGox1Rc4) & [jyMario Game](https://github.com/vaclisinc/jyMario) (Game Development - Cocos Creator)
 - Music Technology Projects (AHG Music Lab)
 - [Facebook Basketball Game Bot](https://github.com/vaclisinc/jyBasketballKiller) (Python)
 
