@@ -4,6 +4,7 @@
 - Active in music technology projects at AHG Music Lab.
 
 ## 🏆 Achievements
+- 2023 Campus Speaker at National Cheng Kung University (NCKU)
 - 2024 SITCON Hackathon — SITCON Group Award Winner (Flutter ccDiary App)
 - 2024 WorldQuant Challenge — Silver Level
 
