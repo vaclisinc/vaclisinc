@@ -1,11 +1,13 @@
 ## About Me
-- A junior Computer Science student at National Tsing Hua University (NTHU).
+- A junior Computer Science student at National Tsing Hua University (NTHU) with a rich background in music performance.
 - Passionate about software development, machine learning, and entrepreneurship.
 - Active in music technology projects at AHG Music Lab.
 
+
 ## 🏆 Achievements
-- 2023 Campus Speaker at National Cheng Kung University (NCKU)
-- 2024 SITCON Hackathon — SITCON Group Award Winner (Flutter ccDiary App)
+- Featured performer on various [TV shows](https://www.youtube.com/playlist?list=PL3ZuB3PPtzx5pUTIN3RdnaHvlZkh_g5VE), Spring Festival Galas, and a 24-city solo piano concert tour
+- 2023 [Campus Speaker](https://github.com/vaclisinc/2023_NCKU_Campus_Speech_SongZeYu) at National Cheng Kung University (NCKU)
+- 2024 SITCON Hackathon — SITCON Group Award Winner (Flutter [ccDiary App](https://github.com/SimonLiu423/cc_diary))
 - 2024 WorldQuant Challenge — Silver Level
 
 ## 💻 Skills
@@ -15,8 +17,9 @@
 - Game Dev: Cocos Creator
 - Music Tech: Experience from AHG Music Lab
 - Other: Git, Firebase, Google Cloud Platform
+- Public Speaking & Performance: Extensive experience in concerts and TV appearances
 
-## 🚀 Side Projects
+## 🚀 [Side Projects](https://www.youtube.com/playlist?list=PL0RJ6nWgJqURxHgh0X4TJNPzUIP_jFO3y)
 
 - [ccDiary App](https://github.com/SimonLiu423/cc_diary) (Flutter - SITCON Hackathon winner)
 - [ChatV](https://chatv-vaclis.web.app/index.html) & [jyCanvas](https://vacanvas.web.app/) & [jyBaseball](https://vaclisinc.github.io/baseball/) (Web Development - Full-stack)
