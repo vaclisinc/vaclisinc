@@ -8,9 +8,9 @@
 - Featured performer on various [TV shows](https://www.youtube.com/playlist?list=PL3ZuB3PPtzx5pUTIN3RdnaHvlZkh_g5VE), Spring Festival Galas, and a 24-city solo piano concert tour
 - 2023 [Campus Speaker](https://github.com/vaclisinc/2023_NCKU_Campus_Speech_SongZeYu) at National Cheng Kung University (NCKU)
 - 2024 WorldQuant Challenge — Silver Level
-- 2024 SITCON Hackathon — SITCON Group Award Winner (Flutter [ccDiary App](https://github.com/SimonLiu423/cc_diary))
+- 2024 SITCON Hackathon — Award Winner (SITCON Group) (Flutter [ccDiary App](https://github.com/SimonLiu423/cc_diary))
 - 2024 Taipei Hackathon — 3rd place, winning a prize of NT$100,000 ([ParkFlow](https://github.com/vaclisinc/vaclis-TownPass-Services))
-- 2024 Meichu Hackathon - 2nd place (Google), winning a prize of NT$16000 ([Travelity](https://github.com/vaclisinc/travelity))
+- 2024 Meichu Hackathon — 2nd place (Google), winning a prize of NT$16000 ([Travelity](https://github.com/vaclisinc/travelity))
 
 ## 💻 Skills
 - Languages: C, C++, Python, JavaScript, Dart, Verilog
