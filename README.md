@@ -10,6 +10,7 @@
 - 2024 WorldQuant Challenge — Silver Level
 - 2024 SITCON Hackathon — SITCON Group Award Winner (Flutter [ccDiary App](https://github.com/SimonLiu423/cc_diary))
 - 2024 Taipei Hackathon — 3rd place, winning a prize of NT$100,000 ([ParkFlow](https://github.com/vaclisinc/vaclis-TownPass-Services))
+- 2024 Meichu Hackathon - 2nd place (Google), winning a prize of NT$16000 ([Travelity](https://github.com/vaclisinc/travelity))
 
 ## 💻 Skills
 - Languages: C, C++, Python, JavaScript, Dart, Verilog
