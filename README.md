@@ -13,19 +13,25 @@
 - 2024 Meichu Hackathon — 2nd place (Google), winning a prize of NT$16000 ([Travelity](https://github.com/vaclisinc/travelity))
 
 ## 💻 Skills
-- Languages: C, C++, Python, JavaScript, Dart, Verilog
-- Web Dev: Full-stack (HTML, CSS, React, Vue, Vite)
-- Mobile: Flutter
-- Game Dev: Cocos Creator
-- Music Tech: Experience from AHG Music Lab
-- Other: Git, Firebase, Google Cloud Platform
-- Public Speaking & Performance: Extensive experience in concerts and TV appearances
+
+- **Programming Languages**: C, C++, Python, JavaScript, Dart, Verilog  
+- **Web Development**: Full-stack (HTML, CSS, React, Vue, Vite)  
+- **Mobile Development**: React Native, Flutter  
+- **Backend Development**: FastAPI, Apache24, PostgreSQL  
+- **AI Development**: TensorFlow, PyTorch, scikit-learn, LangChain, Hugging Face, OpenAI APIs  
+- **DevOps**: Docker, Kubernetes, Firebase, GCP, Git, Linux  
+- **Game Development**: Cocos Creator  
+- **Music Technology**: Experience from AHG Music Lab  
+- **Public Speaking & Performance**: Extensive experience in concerts and TV appearances  
 
 ## 🚀 [Side Projects](https://www.youtube.com/playlist?list=PL0RJ6nWgJqURxHgh0X4TJNPzUIP_jFO3y)
 
-- [ccDiary App](https://github.com/SimonLiu423/cc_diary) (Flutter - SITCON Hackathon winner)
-- [InningIQ](https://github.com/vaclisinc/InningIQ) (Full-stack Development)
-- [ParkFlow](https://github.com/vaclisinc/vaclis-TownPass-Services) (Vue & Flutter - Taipei Hackathon 3rd place winner)
+- [PilotClean](https://github.com/vaclisinc/PilotClean) (Verilog - FPGA dual mode cleaning robot)
+- [InningIQ](https://github.com/vaclisinc/InningIQ) & [jyBaseball](http://github.com/vaclisinc/jyBaseball) (Full-stack Development)
+- [ccDiary App](https://github.com/SimonLiu423/cc_diary) (Flutter - 2024 SITCON Hackathon winner)
+- [ParkFlow](https://github.com/vaclisinc/vaclis-TownPass-Services) (Vue & Flutter - 2024 Taipei Hackathon 3rd place winner)
+- [Travelity](https://github.com/vaclisinc/Travelity) (Flutter - 2024 MeiChu Hackathon 2rd place winner)
+- [Pitch Type Prediction Using RNN](https://github.com/vaclisinc/Pitch-Type-Prediction-Using-RNN) (AI - RNN Model for Sequential Patterns)
 - [ChatV](https://github.com/vaclisinc/chatV) & [jyBaseball](https://github.com/vaclisinc/jyBaseball) & [jyCanvas](https://github.com/vaclisinc/jyCanvas) (Web Development - Full-stack)
 - [Hunger 2050](https://youtu.be/U4FfGox1Rc4) & [jyMario Game](https://github.com/vaclisinc/jyMario) (Game Development - Cocos Creator)
 - Music Technology Projects (AHG Music Lab)
