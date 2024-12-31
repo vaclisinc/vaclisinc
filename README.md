@@ -3,6 +3,18 @@
 - Passionate about software development, machine learning, and entrepreneurship.
 - Active in music technology projects at AHG Music Lab.
 
+## 🚀 [Side Projects](https://www.youtube.com/playlist?list=PL0RJ6nWgJqURxHgh0X4TJNPzUIP_jFO3y)
+
+- [PilotClean](https://github.com/vaclisinc/PilotClean) (Verilog - FPGA dual mode cleaning robot)
+- [InningIQ](https://github.com/vaclisinc/InningIQ) & [jyBaseball](http://github.com/vaclisinc/jyBaseball) (Full-stack Development)
+- [ccDiary App](https://github.com/SimonLiu423/cc_diary) (Flutter - 2024 SITCON Hackathon winner)
+- [ParkFlow](https://github.com/vaclisinc/vaclis-TownPass-Services) (Vue & Flutter - 2024 Taipei Hackathon 3rd place winner)
+- [Travelity](https://github.com/vaclisinc/Travelity) (Flutter - 2024 MeiChu Hackathon 2rd place winner)
+- [Pitch Type Prediction Using RNN](https://github.com/vaclisinc/Pitch-Type-Prediction-Using-RNN) (AI - RNN Model for Sequential Patterns)
+- [ChatV](https://github.com/vaclisinc/chatV) & [jyBaseball](https://github.com/vaclisinc/jyBaseball) & [jyCanvas](https://github.com/vaclisinc/jyCanvas) (Web Development - Full-stack)
+- [Hunger 2050](https://youtu.be/U4FfGox1Rc4) & [jyMario Game](https://github.com/vaclisinc/jyMario) (Game Development - Cocos Creator)
+- Music Technology Projects (AHG Music Lab)
+- [Facebook Basketball Game Bot](https://github.com/vaclisinc/jyBasketballKiller) (Python)
 
 ## 🏆 Achievements
 - Featured performer on various [TV shows](https://www.youtube.com/playlist?list=PL3ZuB3PPtzx5pUTIN3RdnaHvlZkh_g5VE), Spring Festival Galas, and a 24-city solo piano concert tour
@@ -22,20 +34,7 @@
 - **DevOps**: Docker, Kubernetes, Firebase, GCP, Git, Linux  
 - **Game Development**: Cocos Creator  
 - **Music Technology**: Experience from AHG Music Lab  
-- **Public Speaking & Performance**: Extensive experience in concerts and TV appearances  
-
-## 🚀 [Side Projects](https://www.youtube.com/playlist?list=PL0RJ6nWgJqURxHgh0X4TJNPzUIP_jFO3y)
-
-- [PilotClean](https://github.com/vaclisinc/PilotClean) (Verilog - FPGA dual mode cleaning robot)
-- [InningIQ](https://github.com/vaclisinc/InningIQ) & [jyBaseball](http://github.com/vaclisinc/jyBaseball) (Full-stack Development)
-- [ccDiary App](https://github.com/SimonLiu423/cc_diary) (Flutter - 2024 SITCON Hackathon winner)
-- [ParkFlow](https://github.com/vaclisinc/vaclis-TownPass-Services) (Vue & Flutter - 2024 Taipei Hackathon 3rd place winner)
-- [Travelity](https://github.com/vaclisinc/Travelity) (Flutter - 2024 MeiChu Hackathon 2rd place winner)
-- [Pitch Type Prediction Using RNN](https://github.com/vaclisinc/Pitch-Type-Prediction-Using-RNN) (AI - RNN Model for Sequential Patterns)
-- [ChatV](https://github.com/vaclisinc/chatV) & [jyBaseball](https://github.com/vaclisinc/jyBaseball) & [jyCanvas](https://github.com/vaclisinc/jyCanvas) (Web Development - Full-stack)
-- [Hunger 2050](https://youtu.be/U4FfGox1Rc4) & [jyMario Game](https://github.com/vaclisinc/jyMario) (Game Development - Cocos Creator)
-- Music Technology Projects (AHG Music Lab)
-- [Facebook Basketball Game Bot](https://github.com/vaclisinc/jyBasketballKiller) (Python)
+- **Public Speaking & Performance**: Extensive experience in concerts and TV appearances
 
 ## 📫 Connect
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/vaclis/)
