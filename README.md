@@ -1,19 +1,19 @@
 ## About [Me](https://vaclis.net)
 - A junior Computer Science student at National Tsing Hua University (NTHU) with a rich background in music performance.
-- Passionate about software development, machine learning, and entrepreneurship.
-- Active in music technology projects at AHG Music Lab.
+- Passionate about music technology, software development, machine learning, and entrepreneurship.
+- Active in VTR plugins ([Vaclis-Tone-Replication](https://github.com/vaclisinc/Vaclis_Tone_Replication/)) at AHG Music Lab.
 
 ## 🚀 [Side Projects](https://www.youtube.com/playlist?list=PL0RJ6nWgJqURxHgh0X4TJNPzUIP_jFO3y)
 
-- [PilotClean](https://github.com/vaclisinc/PilotClean) (Verilog - FPGA dual mode cleaning robot)
 - [InningIQ](https://github.com/vaclisinc/InningIQ) & [jyBaseball](http://github.com/vaclisinc/jyBaseball) (Full-stack Development)
-- [ccDiary App](https://github.com/SimonLiu423/cc_diary) (Flutter - 2024 SITCON Hackathon winner)
 - [ParkFlow](https://github.com/vaclisinc/vaclis-TownPass-Services) (Vue & Flutter - 2024 Taipei Hackathon 3rd place winner)
+- [Vaclis-Tone-Replication](https://github.com/vaclisinc/Vaclis_Tone_Replication/) (AHG Music Lab)
+- [ccDiary App](https://github.com/SimonLiu423/cc_diary) (Flutter - 2024 SITCON Hackathon winner)
 - [Travelity](https://github.com/vaclisinc/Travelity) (Flutter - 2024 MeiChu Hackathon 2rd place winner)
 - [Pitch Type Prediction Using RNN](https://github.com/vaclisinc/Pitch-Type-Prediction-Using-RNN) (AI - RNN Model for Sequential Patterns)
+- [PilotClean](https://github.com/vaclisinc/PilotClean) (Verilog - FPGA dual mode cleaning robot)
 - [ChatV](https://github.com/vaclisinc/chatV) & [jyBaseball](https://github.com/vaclisinc/jyBaseball) & [jyCanvas](https://github.com/vaclisinc/jyCanvas) (Web Development - Full-stack)
 - [Hunger 2050](https://youtu.be/U4FfGox1Rc4) & [jyMario Game](https://github.com/vaclisinc/jyMario) (Game Development - Cocos Creator)
-- Music Technology Projects (AHG Music Lab)
 - [Facebook Basketball Game Bot](https://github.com/vaclisinc/jyBasketballKiller) (Python)
 
 ## 🏆 Achievements
@@ -26,14 +26,14 @@
 
 ## 💻 Skills
 
-- **Programming Languages**: C, C++, Python, JavaScript, Dart, Verilog  
+- **Programming Languages**: C, C++, Python, JavaScript, Dart, Verilog, Lua
 - **Web Development**: Full-stack (HTML, CSS, React, Vue, Vite)  
-- **Mobile Development**: React Native, Flutter  
-- **Backend Development**: FastAPI, Apache24, PostgreSQL  
+- **Mobile Development**: React Native, Flutter
+- **Backend Development**: FastAPI, Apache24, PostgreSQL
 - **AI Development**: TensorFlow, PyTorch, scikit-learn, LangChain, Hugging Face, OpenAI APIs  
-- **DevOps**: Docker, Kubernetes, Firebase, GCP, Git, Linux  
+- **DevOps**: Docker, Kubernetes, Firebase, GCP, Git, Linux
+- **Music Technology**: Reaper (ReaScript/Lua)
 - **Game Development**: Cocos Creator  
-- **Music Technology**: Experience from AHG Music Lab  
 - **Public Speaking & Performance**: Extensive experience in concerts and TV appearances
 
 ## 📫 Connect
