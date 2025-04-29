@@ -1,7 +1,7 @@
 ## About [Me](https://vaclis.net)
 - A junior Computer Science student at National Tsing Hua University (NTHU) with a rich background in music performance.
 - Passionate about music technology, software development, machine learning, and entrepreneurship.
-- Active in VTR plugins ([Vaclis-Tone-Replication](https://github.com/vaclisinc/Vaclis_Tone_Replication/)) at AHG Music Lab.
+- Active in a AI tone replication plugin ([VTR](https://github.com/vaclisinc/Vaclis_Tone_Replication/)) at AHG Music Lab.
 
 ## 🚀 [Side Projects](https://www.youtube.com/playlist?list=PL0RJ6nWgJqURxHgh0X4TJNPzUIP_jFO3y)
 
