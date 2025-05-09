@@ -8,6 +8,7 @@
 - [InningIQ](https://github.com/vaclisinc/InningIQ) & [jyBaseball](http://github.com/vaclisinc/jyBaseball) (Full-stack Development)
 - [ParkFlow](https://github.com/vaclisinc/vaclis-TownPass-Services) (Vue & Flutter - 2024 Taipei Hackathon 3rd place winner)
 - [Vaclis-Tone-Replication](https://github.com/vaclisinc/Vaclis_Tone_Replication/) (AHG Music Lab)
+- [RecyScore](https://github.com/vaclisinc/RecyScore) (AWS & ioT & Full-stack Development)
 - [ccDiary App](https://github.com/SimonLiu423/cc_diary) (Flutter - 2024 SITCON Hackathon winner)
 - [Travelity](https://github.com/vaclisinc/Travelity) (Flutter - 2024 MeiChu Hackathon 2rd place winner)
 - [Pitch Type Prediction Using RNN](https://github.com/vaclisinc/Pitch-Type-Prediction-Using-RNN) (AI - RNN Model for Sequential Patterns)
