@@ -5,14 +5,14 @@
 - Also a pianist with 24 solo concerts and numerous TV appearances.
 
 ## Open Source Contributions
-- [Claude-Code-Remote](https://github.com/JessyTsui/Claude-Code-Remote) 
-
+- [Berkeleytime](https://beta.berkeleytime.com/)
+- [Claude-Code-Remote](https://github.com/JessyTsui/Claude-Code-Remote)
 
 ## [Side Projects](https://www.youtube.com/playlist?list=PL0RJ6nWgJqURxHgh0X4TJNPzUIP_jFO3y)
 
 - [ParkFlow](https://github.com/vaclisinc/vaclis-TownPass-Services) (Vue & Flutter - 2024 Taipei Hackathon 3rd place winner)
 - [InningIQ](https://github.com/vaclisinc/InningIQ) & [jyBaseball](http://github.com/vaclisinc/jyBaseball) (Full-stack Development)
-- [Vaclis-Tone-Replication](https://github.com/vaclisinc/Vaclis_Tone_Replication/) (AHG Music Lab)
+- [Vaclis-Tone-Replication](https://github.com/vaclisinc/Vaclis_Tone_Replication/) (AHG Music Lab) [arXiv paper](https://arxiv.org/abs/2509.24404)
 - [VTR-smartEQ](https://github.com/vaclisinc/VTR-smartEQ) (JUCE - Positive Grid intern project)
 - [RecyScore](https://github.com/vaclisinc/RecyScore) (AWS & ioT & Full-stack Development)
 - [ccDiary App](https://github.com/SimonLiu423/cc_diary) (Flutter - 2024 SITCON Hackathon winner)
@@ -22,7 +22,6 @@
 - [ChatV](https://github.com/vaclisinc/chatV) & [jyBaseball](https://github.com/vaclisinc/jyBaseball) & [jyCanvas](https://github.com/vaclisinc/jyCanvas) (Web Development - Full-stack)
 - [Hunger 2050](https://youtu.be/U4FfGox1Rc4) & [jyMario Game](https://github.com/vaclisinc/jyMario) (Game Development - Cocos Creator)
 - [Facebook Basketball Game Bot](https://github.com/vaclisinc/jyBasketballKiller) (Python)
-
 
 ## Achievements
 - Featured performer on various [TV shows](https://www.youtube.com/playlist?list=PL3ZuB3PPtzx5pUTIN3RdnaHvlZkh_g5VE), Spring Festival Galas, and a 24-city solo piano concert tour
