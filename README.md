@@ -5,7 +5,7 @@
 - Also a pianist with 24 solo concerts and numerous TV appearances.
 
 ## Open Source Contributions
-- [Berkeleytime](https://beta.berkeleytime.com/)
+- [Berkeleytime](https://github.com/asuc-octo/berkeleytime) [(Berkeley #1 Course web)](https://beta.berkeleytime.com/)
 - [Claude-Code-Remote](https://github.com/JessyTsui/Claude-Code-Remote)
 
 ## [Side Projects](https://www.youtube.com/playlist?list=PL0RJ6nWgJqURxHgh0X4TJNPzUIP_jFO3y)
