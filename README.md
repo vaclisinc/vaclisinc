@@ -1,8 +1,8 @@
 ## About [Me](https://vaclis.net)
 - CS student at NTHU, heading to UC Berkeley CS this fall. Currently exploring music tech as an ML intern at Positive Grid.
-- 3× hackathon winner – one project, ParkFlow, selected for integration into Taipei’s official app (millions of users).
+- 4× hackathon winner – one project, ParkFlow, selected for integration into Taipei’s official app (millions of users).
 - Passionate about building – from RNN pitch prediction to full-stack baseball platforms, web/mobile apps, and beyond.
-- Also a pianist with 24 solo concerts and numerous TV appearances.
+- Also a pianist with 24 solo concerts and 66+ TV appearances.
 
 ## Open Source Contributions
 - [Berkeleytime](https://github.com/asuc-octo/berkeleytime) [(Berkeley #1 Course web)](https://beta.berkeleytime.com/)
