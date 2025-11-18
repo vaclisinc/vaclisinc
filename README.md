@@ -1,11 +1,11 @@
 ## About [Me](https://vaclis.net)
-- CS student at NTHU, heading to UC Berkeley CS this fall. Currently exploring music tech as an ML intern at Positive Grid.
-- 4× hackathon winner – one project, ParkFlow, selected for integration into Taipei’s official app (millions of users).
-- Passionate about building – from RNN pitch prediction to full-stack baseball platforms, web/mobile apps, and beyond.
-- Also a pianist with 24 solo concerts and 66+ TV appearances.
+- CS student at NTHU, now in UC Berkeley CS. Currently exploring music tech as an ML intern at Positive Grid & Berkeley CNMAT Lab.
+- 4× hackathon winner – one project, ParkFlow, selected for integration into Taipei’s official TownPass app (2M+ users).
+- Passionate about building — integrating ML with full-stack to deploy real-world systems, e.g., AI search on BerkeleyTime (30K+ users).
+- Also a kid pianist with 24 solo concerts and 70+ TV appearances.
 
 ## Open Source Contributions
-- [Berkeleytime](https://github.com/asuc-octo/berkeleytime) [(Berkeley #1 Course web)](https://beta.berkeleytime.com/)
+- [Berkeleytime](https://github.com/asuc-octo/berkeleytime) [(Berkeley #1 Course web)](https://beta.berkeleytime.com/) (Full-stack & ML engineer)
 - [Claude-Code-Remote](https://github.com/JessyTsui/Claude-Code-Remote)
 
 ## [Side Projects](https://www.youtube.com/playlist?list=PL0RJ6nWgJqURxHgh0X4TJNPzUIP_jFO3y)
