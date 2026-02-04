@@ -1,7 +1,7 @@
 ## About [Me](https://vaclis.net)
-- CS student at NTHU, now at UC Berkeley CS. Currently exploring music tech as an ML intern at Positive Grid & Berkeley CNMAT Lab.
+- CS student at NTHU, now at UC Berkeley CS. Exploring music tech as ML intern at Positive Grid last summer & research in Berkeley CNMAT Lab now; also exploring LLM persona and human-AI research in BAIR lab (Prof. Darrell Group, Postdoc. David).
 - 4× hackathon winner – one project, ParkFlow, selected for integration into Taipei’s official TownPass app (2M+ users).
-- Passionate about turning ideas into reality — AI semantic course search on BerkeleyTime (30K+ users)...
+- Passionate about building — integrating ML with full-stack to deploy real-world systems, e.g., AI semantic search on BerkeleyTime (78.6K active users per month).
 - Also a kid pianist with 24 solo concerts and 70+ TV appearances.
 
 ## Open Source Contributions
