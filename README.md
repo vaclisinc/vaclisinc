@@ -1,3 +1,3 @@
-Building things in music AI, language models, and systems.
+Building at the intersection of music, AI, and human behavior.
 
 https://vaclis.net
