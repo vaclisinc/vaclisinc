@@ -38,9 +38,9 @@ try {
           const range = document.createRange(); range.selectNodeContents(node);
           if ([...range.getClientRects()].some(rect => rect.left < -1 || rect.right > innerWidth + 1)) clippedText.push(node.textContent.trim());
         }
-        const profile = document.querySelector('.profile').getBoundingClientRect();
-        const story = document.querySelector('.interlude-story').getBoundingClientRect();
-        const overlap = innerWidth <= 832 && profile.bottom > story.top + 1;
+        const about = document.querySelector('#about').getBoundingClientRect();
+        const news = document.querySelector('#news').getBoundingClientRect();
+        const overlap = innerWidth <= 832 && about.bottom > news.top + 1;
         return { missing, clippedText, overlap, overflow: document.documentElement.scrollWidth > innerWidth, height: document.querySelector('#profile-artwork').getBoundingClientRect().height };
       });
       if (failures.length || report.missing.length || report.clippedText.length || report.overlap || report.overflow) throw new Error(JSON.stringify({ failures, ...report }));
