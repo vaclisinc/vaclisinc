@@ -1,6 +1,6 @@
 /* Adapted from github-stats-extended/packages/core/src/cards/repo.ts.
  * MIT; see ../vendor/github-stats-extended/LICENSE and NOTICE.md.
- * Local changes: content-driven height, topics, simplified public stats, local fonts.
+ * Local changes: fixed height, topics, simplified public stats, local fonts.
  */
 import { icons } from '../vendor/github-stats-extended/icons.mjs';
 export const WIDTH = 400;
@@ -34,7 +34,7 @@ export function layoutTopics(topics, measure, startY = 90) {
     const label = fit(unique[i], WIDTH - PAD * 2 - 20, measure);
     const width = Math.ceil(measure(label)) + 20;
     if (x + width > WIDTH - PAD) { x = PAD; row++; }
-    if (row > 1) break;
+    if (row > 0) break;
     tags.push({ label, x, y: startY + row * 24, width }); x += width + 6;
   }
   if (tags.length < unique.length) {
@@ -45,7 +45,6 @@ export function layoutTopics(topics, measure, startY = 90) {
       x = last ? last.x + last.width + 6 : PAD;
       row = last ? Math.round((last.y - startY) / 24) : 0;
       if (x + width <= WIDTH - PAD) break;
-      if (row === 0) { x = PAD; row = 1; break; }
       tags.pop();
     } while(true);
     tags.push({ label, x, y: startY + row * 24, width });
@@ -60,10 +59,9 @@ export function renderRepoCard(repo, { theme = 'light', measure, fontCSS = '' } 
   const m = (size, weight = 400) => text => measure(text,size,weight);
   const name = fit(clean(repo.name), WIDTH - PAD * 2 - 26, m(17,600));
   const lines = wrap(repo.description || '', WIDTH - PAD * 2, m(13), 2);
-  const descriptionBottom = lines.length ? 58 + (lines.length - 1) * 17 : 34;
-  const tags = layoutTopics(repo.topics || [],m(11,600), descriptionBottom + 14);
-  const statsTop = tags.length ? Math.max(...tags.map(tag => tag.y)) + 22 + 12 : descriptionBottom + 17;
-  const height = statsTop + 16 + 12;
+  const tags = layoutTopics(repo.topics || [],m(11,600), 89);
+  const statsTop = 124;
+  const height = 152;
   const colors = {Python:'#3572A5',TypeScript:'#3178c6',JavaScript:'#f1e05a',HTML:'#e34c26','Jupyter Notebook':'#DA5B0B',Dart:'#00B4AB'};
   const text = (value,x,y,size=13,weight=400,fill=c.text) => `<text x="${x}" y="${y}" font-size="${size}" font-weight="${weight}" fill="${fill}">${escapeXML(value)}</text>`;
   const icon = (key,x,y) => `<svg x="${x}" y="${y}" width="16" height="16" viewBox="0 0 16 16" fill="${c.muted}">${icons[key]}</svg>`;

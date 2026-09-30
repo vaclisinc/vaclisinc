@@ -8,11 +8,11 @@ html { scroll-behavior: auto; }
 .interlude-copy { font-size: .95rem; }
 .interlude-memory { right: 0; bottom: 1.2rem; width: 10rem; }
 .interlude-memory figcaption { white-space: normal; font-size: .7rem; color: var(--muted); }
-.layout { grid-template-columns: 1.35fr 1fr; gap: 2rem 2.5rem; padding-bottom: 2.25rem; }
+.layout { grid-template-columns: 1.35fr 1fr; gap: 2rem 2.5rem; padding-bottom: 1rem; }
 .content { display: contents; }
 #about { grid-column: 1; }
 #news { grid-column: 2; }
-.block { padding-bottom: 1.5rem; }
+.block { padding-bottom: 0; }
 .block:last-child { padding-bottom: 0; }
 .block-title { margin-bottom: .9rem; font-size: 1.5rem; }
 .about-list { margin: 0; padding-left: 1.15rem; }
@@ -24,7 +24,7 @@ html { scroll-behavior: auto; }
 .news-list time { font-size: .78rem; }
 @media (max-width: 52rem) {
   :root { --gutter: 1.5rem; }
-  .home-flow { padding-bottom: 1.75rem; }
+  .home-flow { padding-bottom: .75rem; }
   .home-flow .interlude { display: contents; }
   .interlude-stage { order: 0; margin-inline: calc(-1 * var(--gutter)); height: 9rem; }
   .interlude-story { left: auto; right: auto; bottom: auto; order: 2; width: 100%; margin: 1.5rem 0 0; padding: 1rem 0 0; }

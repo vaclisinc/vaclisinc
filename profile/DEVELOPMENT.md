@@ -42,7 +42,7 @@ README 的 `<picture>` 依深淺色與 viewport 寬度選圖；GitHub 頁面欄�
 
 ## 自訂 repo cards（目前使用）
 
-`cards/render.mjs` 改寫自 github-stats-extended 的 repo renderer；來源、原始檔與 MIT 授權在 `vendor/github-stats-extended/`。卡片是本機 SVG，寬 **400px**、高度隨描述與 topics 行數自動調整，包含名稱、描述、最多兩排 GitHub topics、語言、stars、forks。超過兩排的 topics 顯示 `+N`；沒有 topics 的 repo 不會保留空白標籤區域。
+`cards/render.mjs` 改寫自 github-stats-extended 的 repo renderer；來源、原始檔與 MIT 授權在 `vendor/github-stats-extended/`。卡片是本機 SVG，固定 **400 × 152**，包含名稱、描述、最多一排 GitHub topics、語言、stars、forks。超過一排的 topics 顯示 `+N`；沒有 topics 的 repo 不會產生標籤，卡片仍維持相同高度。
 
 ```sh
 npm run cards          # 從 GitHub 更新公開資料並產圖
@@ -59,3 +59,5 @@ npm test               # 換行、標籤溢出、SVG 文字跳脫檢查
 - 更新遇到 API 錯誤就停止，保留原產圖。需要離線工作時明確使用 `cards:offline`。
 - AMTFlow 依使用者要求暫緩：若仍是 404 就跳過並保留原遠端連結；公開後下次 `npm run cards` 會自動產生本地卡片並切換 README 引用。
 - 這是產圖時的資料快照，GitHub 瀏覽時不會即時更新。改完 GitHub topics 後重新執行 `npm run cards` 並提交產圖即可。
+
+卡片固定保留 description 兩行、topics 一行的空間；空內容也保留位置，統計列對齊。

@@ -52,7 +52,7 @@ try {
    const pattern=new RegExp(`https://github-stats-extended\\.vercel\\.app/api/pin/\\?username=${owner}&amp;repo=${name}&amp;[^"\\s]+?theme=${theme}_github_repocard`,'g');
    readme=readme.replace(pattern,`assets/cards/${filename}`);
   }
-  console.log(`${repo}: ${data[repo].topics.length} topics, compact content-driven height`);
+  console.log(`${repo}: ${data[repo].topics.length} topics, 400 × 152`);
  }
  await mkdir(output,{recursive:true});
  for(const file of files) await rename(temp+file,output+file);
