@@ -47,7 +47,7 @@
 # My MIR tools
 
 <p>
-  <a href="https://github.com/vaclisinc/midi-realplayer-web">
+  <a href="https://github.com/vaclisinc/midi-realplayer">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/cards/vaclisinc--midi-realplayer-web-dark.svg" />
       <img width="49%" src="assets/cards/vaclisinc--midi-realplayer-web-light.svg" alt="vaclisinc/midi-realplayer-web" />
