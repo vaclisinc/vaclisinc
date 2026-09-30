@@ -2,13 +2,16 @@ import { readFile, writeFile, mkdir, rename, rm } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
 import { serve } from './serve.mjs';
+import { updateRepoReferences } from '../cards/references.mjs';
 const root = new URL('../', import.meta.url);
-const repos = JSON.parse(await readFile(new URL('cards/repos.json',root),'utf8'));
+const repoURL = new URL('cards/repos.json',root);
+const redirects = new Map();
+const repos = JSON.parse(await readFile(repoURL,'utf8'));
 const pending = new Set(['vaclisinc/AMTFlow']); // User deferred until public.
 const dataURL = new URL('cards/data.json',root);
 const data = JSON.parse(await readFile(dataURL,'utf8'));
 if (!process.argv.includes('--offline')) {
-  for (const repo of repos) {
+  for (const [index, repo] of repos.entries()) {
     const response = await fetch(`https://api.github.com/repos/${repo}`,{
       headers:{Accept:'application/vnd.github+json','User-Agent':'vaclis-profile-cards',...(process.env.GITHUB_TOKEN ? {Authorization:`Bearer ${process.env.GITHUB_TOKEN}`} : {})},
       signal:AbortSignal.timeout(30000)
@@ -17,7 +20,13 @@ if (!process.argv.includes('--offline')) {
     if(!response.ok) throw new Error(`${repo}: GitHub HTTP ${response.status}. Existing files preserved; use --offline for cached data.`);
     const d = await response.json();
     if(d.private) throw new Error(`${repo}: refusing to export private repository metadata`);
-    data[repo]={full_name:d.full_name,name:d.name,description:d.description,language:d.language,stars:d.stargazers_count,forks:d.forks_count,topics:d.topics||[],archived:d.archived,fetchedAt:new Date().toISOString()};
+    const canonical = d.full_name;
+    if (canonical !== repo) {
+      redirects.set(repo, canonical);
+      repos[index] = canonical;
+      delete data[repo];
+    }
+    data[canonical]={full_name:d.full_name,name:d.name,description:d.description,language:d.language,stars:d.stargazers_count,forks:d.forks_count,topics:d.topics||[],archived:d.archived,fetchedAt:new Date().toISOString()};
   }
 }
 let fontCSS='';
@@ -35,6 +44,9 @@ try {
  await page.goto(url);
  await page.evaluate(async()=>{await Promise.all([...document.fonts].map(font=>font.load()));await document.fonts.ready;});
  let readme=await readFile(new URL('README.md',root),'utf8');
+ for (const [oldRepo, newRepo] of redirects) {
+   readme = updateRepoReferences(readme, oldRepo, newRepo);
+ }
  const files=[];
  for(const repo of repos) {
   if(!data[repo] || data[repo].unavailable) { console.log(`Skipped: ${repo} (no public snapshot)`); continue; }
@@ -56,6 +68,13 @@ try {
  }
  await mkdir(output,{recursive:true});
  for(const file of files) await rename(temp+file,output+file);
+ for (const oldRepo of redirects.keys()) {
+   for (const theme of ['light', 'dark']) {
+     const obsolete = `${oldRepo.replace('/', '--')}-${theme}.svg`;
+     if (!files.includes(obsolete)) await rm(output + obsolete, {force:true});
+   }
+ }
+ await writeFile(repoURL,JSON.stringify([...new Set(repos)],null,2)+'\n');
  await writeFile(dataURL,JSON.stringify(data,null,2)+'\n');
  await writeFile(new URL('README.md',root),readme);
 } finally {

@@ -8,7 +8,7 @@
     "cards": "node scripts/cards.mjs",
     "cards:offline": "node scripts/cards.mjs --offline",
     "refresh": "npm run export && npm run cards",
-    "test": "node --test cards/render.test.mjs"
+    "test": "node --test cards/*.test.mjs"
   },
   "devDependencies": {
     "markdown-it": "^15.0.2",

@@ -11,7 +11,7 @@
       "music-understanding"
     ],
     "archived": false,
-    "fetchedAt": "2026-09-30T08:32:05.756Z"
+    "fetchedAt": "2026-09-30T09:44:15.744Z"
   },
   "vaclisinc/MIDI-REPA": {
     "full_name": "vaclisinc/MIDI-REPA",
@@ -25,7 +25,7 @@
       "musician"
     ],
     "archived": false,
-    "fetchedAt": "2026-09-30T08:32:06.061Z"
+    "fetchedAt": "2026-09-30T09:44:16.226Z"
   },
   "vaclisinc/InstructFX2FX": {
     "full_name": "vaclisinc/InstructFX2FX",
@@ -39,7 +39,7 @@
       "musician"
     ],
     "archived": false,
-    "fetchedAt": "2026-09-30T08:32:06.351Z"
+    "fetchedAt": "2026-09-30T09:44:16.529Z"
   },
   "DavidMChan/Anamnesis": {
     "full_name": "DavidMChan/Anamnesis",
@@ -50,12 +50,12 @@
     "forks": 0,
     "topics": [],
     "archived": false,
-    "fetchedAt": "2026-09-30T08:32:06.659Z"
+    "fetchedAt": "2026-09-30T09:44:16.824Z"
   },
   "vaclisinc/midi-realplayer": {
     "full_name": "vaclisinc/midi-realplayer",
     "name": "midi-realplayer",
-    "description": "MIDI-realplayer for your demo website.",
+    "description": "An npm package for embedding MIDI-realplayer in your demo website.",
     "language": "TypeScript",
     "stars": 0,
     "forks": 0,
@@ -65,12 +65,12 @@
       "web-audio"
     ],
     "archived": false,
-    "fetchedAt": "2026-09-30T08:32:06.983Z"
+    "fetchedAt": "2026-09-30T09:44:17.270Z"
   },
   "vaclisinc/midi-realplayer-vscode": {
     "full_name": "vaclisinc/midi-realplayer-vscode",
     "name": "midi-realplayer-vscode",
-    "description": "MIDI-realplayer for your VS Code.",
+    "description": "A MIDI-realplayer extension for your VS Code.",
     "language": "TypeScript",
     "stars": 7,
     "forks": 0,
@@ -79,7 +79,7 @@
       "vscode-extension"
     ],
     "archived": false,
-    "fetchedAt": "2026-09-30T08:32:07.314Z"
+    "fetchedAt": "2026-09-30T09:44:17.805Z"
   },
   "vaclisinc/AMTFlow": {
     "unavailable": true,
@@ -97,7 +97,7 @@
       "scheduling"
     ],
     "archived": false,
-    "fetchedAt": "2026-09-30T08:32:08.039Z"
+    "fetchedAt": "2026-09-30T09:44:18.547Z"
   },
   "taipei-doit/townpass2024-parking": {
     "full_name": "taipei-doit/townpass2024-parking",
@@ -110,7 +110,7 @@
       "2024-taipeicodefest-fall"
     ],
     "archived": false,
-    "fetchedAt": "2026-09-30T08:32:08.356Z"
+    "fetchedAt": "2026-09-30T09:44:18.863Z"
   },
   "JessyTsui/Claude-Code-Remote": {
     "full_name": "JessyTsui/Claude-Code-Remote",
@@ -121,6 +121,6 @@
     "forks": 137,
     "topics": [],
     "archived": false,
-    "fetchedAt": "2026-09-30T08:32:08.655Z"
+    "fetchedAt": "2026-09-30T09:44:19.154Z"
   }
 }
