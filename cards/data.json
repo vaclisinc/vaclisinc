@@ -1,0 +1,126 @@
+{
+  "vaclisinc/PitchBench": {
+    "full_name": "vaclisinc/PitchBench",
+    "name": "PitchBench",
+    "description": "[NeurIPS 2026] 𝗣𝗶𝘁𝗰𝗵𝗕𝗲𝗻𝗰𝗵: Measuring Pitch Hearing in Audio-Language Models",
+    "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "audio-language-model",
+      "music-understanding"
+    ],
+    "archived": false,
+    "fetchedAt": "2026-09-30T08:32:05.756Z"
+  },
+  "vaclisinc/MIDI-REPA": {
+    "full_name": "vaclisinc/MIDI-REPA",
+    "name": "MIDI-REPA",
+    "description": "𝗠𝗜𝗗𝗜-𝗥𝗘𝗣𝗔: Improving Text-to-Music Generation with Symbolic Representation Alignment",
+    "language": "HTML",
+    "stars": 5,
+    "forks": 0,
+    "topics": [
+      "controllability",
+      "musician"
+    ],
+    "archived": false,
+    "fetchedAt": "2026-09-30T08:32:06.061Z"
+  },
+  "vaclisinc/InstructFX2FX": {
+    "full_name": "vaclisinc/InstructFX2FX",
+    "name": "InstructFX2FX",
+    "description": "[DAFx 2026 Demo] 𝗜𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗙𝗫𝟮𝗙𝗫: A Multi-Turn Text-to-Effect System for Sequential Audio Effect Refinement ",
+    "language": "Jupyter Notebook",
+    "stars": 6,
+    "forks": 0,
+    "topics": [
+      "controllability",
+      "musician"
+    ],
+    "archived": false,
+    "fetchedAt": "2026-09-30T08:32:06.351Z"
+  },
+  "DavidMChan/Anamnesis": {
+    "full_name": "DavidMChan/Anamnesis",
+    "name": "Anamnesis",
+    "description": "[EMNLP 2026 Demo] Anamnesis: An Open-Source Platform for Large-Scale Backstory-Conditioned Survey Simulation",
+    "language": "TypeScript",
+    "stars": 1,
+    "forks": 0,
+    "topics": [],
+    "archived": false,
+    "fetchedAt": "2026-09-30T08:32:06.659Z"
+  },
+  "vaclisinc/midi-realplayer-web": {
+    "full_name": "vaclisinc/midi-realplayer-web",
+    "name": "midi-realplayer-web",
+    "description": "MIDI-realplayer for your demo website.",
+    "language": "TypeScript",
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "midi-player",
+      "npm-package",
+      "web-audio"
+    ],
+    "archived": false,
+    "fetchedAt": "2026-09-30T08:32:06.983Z"
+  },
+  "vaclisinc/midi-realplayer-vscode": {
+    "full_name": "vaclisinc/midi-realplayer-vscode",
+    "name": "midi-realplayer-vscode",
+    "description": "MIDI-realplayer for your VS Code.",
+    "language": "TypeScript",
+    "stars": 7,
+    "forks": 0,
+    "topics": [
+      "midi-player",
+      "vscode-extension"
+    ],
+    "archived": false,
+    "fetchedAt": "2026-09-30T08:32:07.314Z"
+  },
+  "vaclisinc/AMTFlow": {
+    "unavailable": true,
+    "httpStatus": 404
+  },
+  "asuc-octo/berkeleytime": {
+    "full_name": "asuc-octo/berkeleytime",
+    "name": "berkeleytime",
+    "description": "UC Berkeley enrollment info",
+    "language": "TypeScript",
+    "stars": 88,
+    "forks": 18,
+    "topics": [
+      "enrollment",
+      "scheduling"
+    ],
+    "archived": false,
+    "fetchedAt": "2026-09-30T08:32:08.039Z"
+  },
+  "taipei-doit/townpass2024-parking": {
+    "full_name": "taipei-doit/townpass2024-parking",
+    "name": "townpass2024-parking",
+    "description": "【2024臺北秋季程式設計節-城市通微服務大黑客松】第三名得獎團隊：嘻嘻的時候黑客松松澤",
+    "language": "Dart",
+    "stars": 16,
+    "forks": 2,
+    "topics": [
+      "2024-taipeicodefest-fall"
+    ],
+    "archived": false,
+    "fetchedAt": "2026-09-30T08:32:08.356Z"
+  },
+  "JessyTsui/Claude-Code-Remote": {
+    "full_name": "JessyTsui/Claude-Code-Remote",
+    "name": "Claude-Code-Remote",
+    "description": "Control Claude Code remotely via email、discord、telegram. Start tasks locally, receive notifications when Claude completes them, and send new commands by simply replying to emails.",
+    "language": "JavaScript",
+    "stars": 1285,
+    "forks": 137,
+    "topics": [],
+    "archived": false,
+    "fetchedAt": "2026-09-30T08:32:08.655Z"
+  }
+}

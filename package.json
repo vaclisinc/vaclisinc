@@ -1,0 +1,17 @@
+{
+  "name": "vaclis-profile-artwork",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preview": "node scripts/serve.mjs",
+    "export": "node scripts/export.mjs",
+    "cards": "node scripts/cards.mjs",
+    "cards:offline": "node scripts/cards.mjs --offline",
+    "refresh": "npm run export && npm run cards",
+    "test": "node --test cards/render.test.mjs"
+  },
+  "devDependencies": {
+    "markdown-it": "^15.0.2",
+    "playwright": "1.58.2"
+  }
+}
