@@ -2,6 +2,7 @@ import { readFile, writeFile, mkdir, rename, rm } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
 import { serve } from './serve.mjs';
+import { preserveSnapshot, renderFingerprint } from '../cards/snapshot.mjs';
 import { updateRepoReferences } from '../cards/references.mjs';
 const root = new URL('../', import.meta.url);
 const repoURL = new URL('cards/repos.json',root);
@@ -26,7 +27,7 @@ if (!process.argv.includes('--offline')) {
       repos[index] = canonical;
       delete data[repo];
     }
-    data[canonical]={full_name:d.full_name,name:d.name,description:d.description,language:d.language,stars:d.stargazers_count,forks:d.forks_count,topics:d.topics||[],archived:d.archived,fetchedAt:new Date().toISOString()};
+    data[canonical]=preserveSnapshot(data[canonical],{full_name:d.full_name,name:d.name,description:d.description,language:d.language,stars:d.stargazers_count,forks:d.forks_count,topics:d.topics||[],archived:d.archived},new Date().toISOString());
   }
 }
 let fontCSS='';
@@ -34,6 +35,7 @@ for(const weight of [400,600]) {
  const font=await readFile(new URL(`profile/fonts/hanken-${weight}.ttf`,root));
  fontCSS+=`@font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:${weight};src:url(data:font/ttf;base64,${font.toString('base64')}) format('truetype');}`;
 }
+const rendererInputs = fontCSS + await readFile(new URL('cards/render.mjs',root),'utf8') + await readFile(new URL('vendor/github-stats-extended/icons.mjs',root),'utf8');
 const output=fileURLToPath(new URL('assets/cards/',root));
 const temp=`${output}.pending/`;
 const {server,url}=await serve(); let browser;
@@ -48,18 +50,28 @@ try {
    readme = updateRepoReferences(readme, oldRepo, newRepo);
  }
  const files=[];
+ const retained=new Set();
  for(const repo of repos) {
   if(!data[repo] || data[repo].unavailable) { console.log(`Skipped: ${repo} (no public snapshot)`); continue; }
   const slug=repo.replace('/','--');
   for(const theme of ['light','dark']) {
+   const filename=`${slug}-${theme}.svg`;
+   const marker=`<!-- render-input: ${renderFingerprint(data[repo],theme,rendererInputs)} -->`;
+   let existing='';
+   try { existing=await readFile(output+filename,'utf8'); }
+   catch(error) { if(error.code!=='ENOENT') throw error; }
+   if (existing.includes(marker)) {
+     retained.add(filename);
+   } else {
    const svg=await page.evaluate(async({repo,theme,fontCSS})=>{
     const {renderRepoCard}=await import('/cards/render.mjs');
     const ctx=document.createElement('canvas').getContext('2d');
     const measure=(text,size,weight)=>{ctx.font=`${weight} ${size}px 'Hanken Grotesk', sans-serif`;return ctx.measureText(text).width;};
     return renderRepoCard(repo,{theme,fontCSS,measure});
    },{repo:data[repo],theme,fontCSS});
-   const filename=`${slug}-${theme}.svg`;files.push(filename);
-   await writeFile(temp+filename,svg);
+   files.push(filename);
+   await writeFile(temp+filename,svg.replace('\n', `\n${marker}\n`));
+   }
    const [owner,name]=repo.split('/');
    const pattern=new RegExp(`https://github-stats-extended\\.vercel\\.app/api/pin/\\?username=${owner}&amp;repo=${name}&amp;[^"\\s]+?theme=${theme}_github_repocard`,'g');
    readme=readme.replace(pattern,`assets/cards/${filename}`);
@@ -71,7 +83,7 @@ try {
  for (const oldRepo of redirects.keys()) {
    for (const theme of ['light', 'dark']) {
      const obsolete = `${oldRepo.replace('/', '--')}-${theme}.svg`;
-     if (!files.includes(obsolete)) await rm(output + obsolete, {force:true});
+     if (!files.includes(obsolete) && !retained.has(obsolete)) await rm(output + obsolete, {force:true});
    }
  }
  await writeFile(repoURL,JSON.stringify([...new Set(repos)],null,2)+'\n');
