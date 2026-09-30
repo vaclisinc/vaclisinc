@@ -36,11 +36,6 @@
       <img width="49%" src="assets/cards/vaclisinc--InstructFX2FX-light.svg" alt="vaclisinc/InstructFX2FX" />
     </picture>
   </a>
-</p>
-
-# Human simulation with LLMs
-
-<p>
   <a href="https://github.com/DavidMChan/Anamnesis">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/cards/DavidMChan--Anamnesis-dark.svg" />

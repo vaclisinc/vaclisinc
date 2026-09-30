@@ -42,7 +42,7 @@ README 的 `<picture>` 依深淺色與 viewport 寬度選圖；GitHub 頁面欄�
 
 ## 自訂 repo cards（目前使用）
 
-`cards/render.mjs` 改寫自 github-stats-extended 的 repo renderer；來源、原始檔與 MIT 授權在 `vendor/github-stats-extended/`。卡片是本機 SVG，固定 **400 × 176**，包含名稱、描述、最多兩排 GitHub topics、語言、stars、forks。超過兩排的 topics 顯示 `+N`；沒有 topics 的 repo 不會自動補標籤。
+`cards/render.mjs` 改寫自 github-stats-extended 的 repo renderer；來源、原始檔與 MIT 授權在 `vendor/github-stats-extended/`。卡片是本機 SVG，寬 **400px**、高度隨描述與 topics 行數自動調整，包含名稱、描述、最多兩排 GitHub topics、語言、stars、forks。超過兩排的 topics 顯示 `+N`；沒有 topics 的 repo 不會保留空白標籤區域。
 
 ```sh
 npm run cards          # 從 GitHub 更新公開資料並產圖

@@ -20,13 +20,22 @@ test('topic overflow is represented by an accurate count in two rows',()=>{
  assert.deepEqual(layoutTopics([],measure),[]);
  assert.equal(layoutTopics(['audio','audio'],measure).length,1);
 });
-test('repository text cannot inject SVG markup; both themes retain fixed dimensions',()=>{
+test('repository text cannot inject SVG markup; both themes retain valid dimensions',()=>{
  for(const theme of ['light','dark']) {
   const svg=renderRepoCard({name:'<script>alert(1)</script>',full_name:'owner/<repo>',description:'A & B <img onload="bad">',topics:['a&b'],language:null,stars:0,forks:0},{theme,measure});
-  assert.ok(svg.includes('width="400" height="176"'));
+  assert.ok(/width="400" height="\d+"/.test(svg));
   assert.ok(!svg.includes('<script>'));
   assert.ok(!svg.includes('<img'));
   assert.ok(svg.includes('A &amp; B'));
   assert.ok(!svg.includes('undefined'));
  }
+});
+
+test('repositories without topics collapse the tag region',()=>{
+ const base={name:'repo',full_name:'owner/repo',description:'short',language:'Python',stars:0,forks:0};
+ const height=svg=>Number(svg.match(/^<svg[^>]*height="(\d+)"/)[1]);
+ const plain=renderRepoCard({...base,topics:[]},{measure});
+ const tagged=renderRepoCard({...base,topics:['music']},{measure});
+ assert.ok(height(tagged)>height(plain));
+ assert.ok(!plain.includes('rx="11"'));
 });
