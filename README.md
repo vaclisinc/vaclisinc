@@ -12,7 +12,7 @@
 
 <p align="center"><a href="https://vaclis.net/">vaclis.net</a></p>
 
-# Research
+## Research
 
 <p>
   <a href="https://github.com/vaclisinc/PitchBench">
@@ -44,7 +44,7 @@
   </a>
 </p>
 
-# My MIR tools
+## My Music tools
 
 <p>
   <a href="https://github.com/vaclisinc/midi-realplayer">
@@ -70,7 +70,7 @@
   </a>
 </p>
 
-# Open source
+## Open source
 
 <p>
   <a href="https://github.com/asuc-octo/berkeleytime">
