@@ -49,8 +49,8 @@
 <p>
   <a href="https://github.com/vaclisinc/midi-realplayer">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/cards/vaclisinc--midi-realplayer-web-dark.svg" />
-      <img width="49%" src="assets/cards/vaclisinc--midi-realplayer-web-light.svg" alt="vaclisinc/midi-realplayer-web" />
+      <source media="(prefers-color-scheme: dark)" srcset="assets/cards/vaclisinc--midi-realplayer-dark.svg" />
+      <img width="49%" src="assets/cards/vaclisinc--midi-realplayer-light.svg" alt="vaclisinc/midi-realplayer" />
     </picture>
   </a>
   <a href="https://github.com/vaclisinc/midi-realplayer-vscode">

@@ -52,9 +52,9 @@
     "archived": false,
     "fetchedAt": "2026-09-30T08:32:06.659Z"
   },
-  "vaclisinc/midi-realplayer-web": {
-    "full_name": "vaclisinc/midi-realplayer-web",
-    "name": "midi-realplayer-web",
+  "vaclisinc/midi-realplayer": {
+    "full_name": "vaclisinc/midi-realplayer",
+    "name": "midi-realplayer",
     "description": "MIDI-realplayer for your demo website.",
     "language": "TypeScript",
     "stars": 0,
