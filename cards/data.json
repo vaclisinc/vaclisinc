@@ -2,7 +2,7 @@
   "vaclisinc/PitchBench": {
     "full_name": "vaclisinc/PitchBench",
     "name": "PitchBench",
-    "description": "[NeurIPS 2026] 𝗣𝗶𝘁𝗰𝗵𝗕𝗲𝗻𝗰𝗵: Measuring Pitch Hearing in Audio-Language Models",
+    "description": "[NeurIPS 2026 E&D] 𝗣𝗶𝘁𝗰𝗵𝗕𝗲𝗻𝗰𝗵: Measuring Pitch Hearing in Audio-Language Models",
     "language": "Python",
     "stars": 1,
     "forks": 0,
@@ -11,7 +11,7 @@
       "music-understanding"
     ],
     "archived": false,
-    "fetchedAt": "2026-10-01T07:12:15.334Z"
+    "fetchedAt": "2026-10-02T07:02:01.750Z"
   },
   "vaclisinc/MIDI-REPA": {
     "full_name": "vaclisinc/MIDI-REPA",
