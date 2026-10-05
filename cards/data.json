@@ -57,7 +57,7 @@
     "name": "midi-realplayer",
     "description": "An npm package for embedding MIDI-realplayer in your demo website.",
     "language": "TypeScript",
-    "stars": 0,
+    "stars": 1,
     "forks": 0,
     "topics": [
       "midi-player",
@@ -65,7 +65,7 @@
       "web-audio"
     ],
     "archived": false,
-    "fetchedAt": "2026-09-30T09:45:25.782Z"
+    "fetchedAt": "2026-10-05T07:05:01.111Z"
   },
   "vaclisinc/midi-realplayer-vscode": {
     "full_name": "vaclisinc/midi-realplayer-vscode",
