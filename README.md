@@ -64,8 +64,8 @@
 <p>
   <a href="https://github.com/vaclisinc/AMTFlow">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=vaclisinc&amp;repo=AMTFlow&amp;description_lines_count=3&amp;card_width=400&amp;disable_animations=true&amp;theme=dark_github_repocard" />
-      <img width="49%" src="https://github-stats-extended.vercel.app/api/pin/?username=vaclisinc&amp;repo=AMTFlow&amp;description_lines_count=3&amp;card_width=400&amp;disable_animations=true&amp;theme=light_github_repocard" alt="vaclisinc/AMTFlow" />
+      <source media="(prefers-color-scheme: dark)" srcset="assets/cards/vaclisinc--AMTFlow-dark.svg" />
+      <img width="49%" src="assets/cards/vaclisinc--AMTFlow-light.svg" alt="vaclisinc/AMTFlow" />
     </picture>
   </a>
 </p>
