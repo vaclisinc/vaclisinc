@@ -86,14 +86,14 @@
     "name": "AMTFlow",
     "description": "A better framework for multi-instrument automatic music transcription. ",
     "language": "Python",
-    "stars": 1,
+    "stars": 3,
     "forks": 0,
     "topics": [
       "automatic-music-transcription",
       "instrument-detection"
     ],
     "archived": false,
-    "fetchedAt": "2026-10-12T07:25:27.662Z"
+    "fetchedAt": "2026-10-14T06:10:48.712Z"
   },
   "asuc-octo/berkeleytime": {
     "full_name": "asuc-octo/berkeleytime",
@@ -127,10 +127,10 @@
     "name": "Claude-Code-Remote",
     "description": "Control Claude Code remotely via email、discord、telegram. Start tasks locally, receive notifications when Claude completes them, and send new commands by simply replying to emails.",
     "language": "JavaScript",
-    "stars": 1289,
+    "stars": 1288,
     "forks": 137,
     "topics": [],
     "archived": false,
-    "fetchedAt": "2026-10-13T07:45:05.487Z"
+    "fetchedAt": "2026-10-14T06:10:49.529Z"
   }
 }
