@@ -128,9 +128,9 @@
     "description": "Control Claude Code remotely via email、discord、telegram. Start tasks locally, receive notifications when Claude completes them, and send new commands by simply replying to emails.",
     "language": "JavaScript",
     "stars": 1288,
-    "forks": 137,
+    "forks": 136,
     "topics": [],
     "archived": false,
-    "fetchedAt": "2026-10-14T06:10:49.529Z"
+    "fetchedAt": "2026-10-15T05:55:54.794Z"
   }
 }
