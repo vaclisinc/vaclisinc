@@ -18,14 +18,14 @@
     "name": "MIDI-REPA",
     "description": "𝗠𝗜𝗗𝗜-𝗥𝗘𝗣𝗔: Improving Text-to-Music Generation with Symbolic Representation Alignment",
     "language": null,
-    "stars": 5,
+    "stars": 6,
     "forks": 0,
     "topics": [
       "controllability",
       "musician"
     ],
     "archived": false,
-    "fetchedAt": "2026-10-16T05:53:04.782Z"
+    "fetchedAt": "2026-10-18T05:56:12.329Z"
   },
   "vaclisinc/InstructFX2FX": {
     "full_name": "vaclisinc/InstructFX2FX",
@@ -86,14 +86,14 @@
     "name": "AMTFlow",
     "description": "A better framework for multi-instrument automatic music transcription. ",
     "language": "Python",
-    "stars": 3,
+    "stars": 6,
     "forks": 0,
     "topics": [
       "automatic-music-transcription",
       "instrument-detection"
     ],
     "archived": false,
-    "fetchedAt": "2026-10-14T06:10:48.712Z"
+    "fetchedAt": "2026-10-18T05:56:13.345Z"
   },
   "asuc-octo/berkeleytime": {
     "full_name": "asuc-octo/berkeleytime",
