@@ -18,14 +18,14 @@
     "name": "MIDI-REPA",
     "description": "𝗠𝗜𝗗𝗜-𝗥𝗘𝗣𝗔: Improving Text-to-Music Generation with Symbolic Representation Alignment",
     "language": null,
-    "stars": 6,
+    "stars": 8,
     "forks": 0,
     "topics": [
       "controllability",
       "musician"
     ],
     "archived": false,
-    "fetchedAt": "2026-10-18T05:56:12.329Z"
+    "fetchedAt": "2026-10-19T06:14:38.850Z"
   },
   "vaclisinc/InstructFX2FX": {
     "full_name": "vaclisinc/InstructFX2FX",
@@ -72,14 +72,14 @@
     "name": "midi-realplayer-vscode",
     "description": "A MIDI-realplayer extension for your VS Code.",
     "language": "TypeScript",
-    "stars": 7,
+    "stars": 8,
     "forks": 0,
     "topics": [
       "midi-player",
       "vscode-extension"
     ],
     "archived": false,
-    "fetchedAt": "2026-09-30T09:45:26.036Z"
+    "fetchedAt": "2026-10-19T06:14:39.785Z"
   },
   "vaclisinc/AMTFlow": {
     "full_name": "vaclisinc/AMTFlow",
