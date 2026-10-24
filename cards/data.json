@@ -18,14 +18,14 @@
     "name": "MIDI-REPA",
     "description": "𝗠𝗜𝗗𝗜-𝗥𝗘𝗣𝗔: Improving Text-to-Music Generation with Symbolic Representation Alignment",
     "language": null,
-    "stars": 9,
+    "stars": 10,
     "forks": 0,
     "topics": [
       "controllability",
       "musician"
     ],
     "archived": false,
-    "fetchedAt": "2026-10-23T06:03:33.745Z"
+    "fetchedAt": "2026-10-24T05:56:23.997Z"
   },
   "vaclisinc/InstructFX2FX": {
     "full_name": "vaclisinc/InstructFX2FX",
