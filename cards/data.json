@@ -114,23 +114,23 @@
     "name": "townpass2024-parking",
     "description": "【2024臺北秋季程式設計節-城市通微服務大黑客松】第三名得獎團隊：嘻嘻的時候黑客松松澤",
     "language": "Dart",
-    "stars": 16,
+    "stars": 17,
     "forks": 2,
     "topics": [
       "2024-taipeicodefest-fall"
     ],
     "archived": false,
-    "fetchedAt": "2026-09-30T09:45:27.909Z"
+    "fetchedAt": "2026-10-25T06:09:48.071Z"
   },
   "JessyTsui/Claude-Code-Remote": {
     "full_name": "JessyTsui/Claude-Code-Remote",
     "name": "Claude-Code-Remote",
     "description": "Control Claude Code remotely via email、discord、telegram. Start tasks locally, receive notifications when Claude completes them, and send new commands by simply replying to emails.",
     "language": "JavaScript",
-    "stars": 1287,
+    "stars": 1286,
     "forks": 136,
     "topics": [],
     "archived": false,
-    "fetchedAt": "2026-10-21T06:03:13.194Z"
+    "fetchedAt": "2026-10-25T06:09:48.304Z"
   }
 }
