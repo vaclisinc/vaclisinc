@@ -17,7 +17,7 @@
     "full_name": "vaclisinc/MIDI-REPA",
     "name": "MIDI-REPA",
     "description": "𝗠𝗜𝗗𝗜-𝗥𝗘𝗣𝗔: Improving Text-to-Music Generation with Symbolic Representation Alignment",
-    "language": null,
+    "language": "Python",
     "stars": 10,
     "forks": 0,
     "topics": [
@@ -25,7 +25,7 @@
       "musician"
     ],
     "archived": false,
-    "fetchedAt": "2026-10-24T05:56:23.997Z"
+    "fetchedAt": "2026-10-26T06:16:42.807Z"
   },
   "vaclisinc/InstructFX2FX": {
     "full_name": "vaclisinc/InstructFX2FX",
@@ -127,10 +127,10 @@
     "name": "Claude-Code-Remote",
     "description": "Control Claude Code remotely via email、discord、telegram. Start tasks locally, receive notifications when Claude completes them, and send new commands by simply replying to emails.",
     "language": "JavaScript",
-    "stars": 1286,
+    "stars": 1287,
     "forks": 136,
     "topics": [],
     "archived": false,
-    "fetchedAt": "2026-10-25T06:09:48.304Z"
+    "fetchedAt": "2026-10-26T06:16:44.907Z"
   }
 }
