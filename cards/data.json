@@ -46,11 +46,11 @@
     "name": "Anamnesis",
     "description": "[EMNLP 2026 Demo] Anamnesis: An Open-Source Platform for Large-Scale Backstory-Conditioned Survey Simulation",
     "language": "TypeScript",
-    "stars": 1,
+    "stars": 2,
     "forks": 0,
     "topics": [],
     "archived": false,
-    "fetchedAt": "2026-09-30T09:45:25.530Z"
+    "fetchedAt": "2026-10-27T06:18:35.137Z"
   },
   "vaclisinc/midi-realplayer": {
     "full_name": "vaclisinc/midi-realplayer",
