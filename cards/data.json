@@ -86,28 +86,28 @@
     "name": "AMTFlow",
     "description": "A better framework for multi-instrument automatic music transcription. ",
     "language": "Python",
-    "stars": 8,
+    "stars": 9,
     "forks": 0,
     "topics": [
       "automatic-music-transcription",
       "instrument-detection"
     ],
     "archived": false,
-    "fetchedAt": "2026-10-23T06:03:34.916Z"
+    "fetchedAt": "2026-10-29T07:08:15.093Z"
   },
   "asuc-octo/berkeleytime": {
     "full_name": "asuc-octo/berkeleytime",
     "name": "berkeleytime",
     "description": "UC Berkeley enrollment info",
     "language": "TypeScript",
-    "stars": 89,
+    "stars": 88,
     "forks": 18,
     "topics": [
       "enrollment",
       "scheduling"
     ],
     "archived": false,
-    "fetchedAt": "2026-10-12T07:25:27.887Z"
+    "fetchedAt": "2026-10-29T07:08:15.408Z"
   },
   "taipei-doit/townpass2024-parking": {
     "full_name": "taipei-doit/townpass2024-parking",
