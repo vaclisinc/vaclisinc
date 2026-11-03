@@ -57,7 +57,7 @@
     "name": "midi-realplayer",
     "description": "An npm package for embedding MIDI-realplayer in your demo website.",
     "language": "TypeScript",
-    "stars": 3,
+    "stars": 4,
     "forks": 0,
     "topics": [
       "midi-player",
@@ -65,7 +65,7 @@
       "web-audio"
     ],
     "archived": false,
-    "fetchedAt": "2026-11-02T07:42:08.197Z"
+    "fetchedAt": "2026-11-03T07:56:23.310Z"
   },
   "vaclisinc/midi-realplayer-vscode": {
     "full_name": "vaclisinc/midi-realplayer-vscode",
@@ -101,13 +101,13 @@
     "description": "UC Berkeley enrollment info",
     "language": "TypeScript",
     "stars": 88,
-    "forks": 18,
+    "forks": 19,
     "topics": [
       "enrollment",
       "scheduling"
     ],
     "archived": false,
-    "fetchedAt": "2026-10-29T07:08:15.408Z"
+    "fetchedAt": "2026-11-03T07:56:24.265Z"
   },
   "taipei-doit/townpass2024-parking": {
     "full_name": "taipei-doit/townpass2024-parking",
@@ -127,10 +127,10 @@
     "name": "Claude-Code-Remote",
     "description": "Control Claude Code remotely via email、discord、telegram. Start tasks locally, receive notifications when Claude completes them, and send new commands by simply replying to emails.",
     "language": "JavaScript",
-    "stars": 1286,
+    "stars": 1285,
     "forks": 136,
     "topics": [],
     "archived": false,
-    "fetchedAt": "2026-11-02T07:42:09.580Z"
+    "fetchedAt": "2026-11-03T07:56:24.857Z"
   }
 }
