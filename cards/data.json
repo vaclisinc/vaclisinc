@@ -127,10 +127,10 @@
     "name": "Claude-Code-Remote",
     "description": "Control Claude Code remotely via email、discord、telegram. Start tasks locally, receive notifications when Claude completes them, and send new commands by simply replying to emails.",
     "language": "JavaScript",
-    "stars": 1287,
+    "stars": 1288,
     "forks": 136,
     "topics": [],
     "archived": false,
-    "fetchedAt": "2026-11-07T07:12:19.752Z"
+    "fetchedAt": "2026-11-08T07:24:23.141Z"
   }
 }
