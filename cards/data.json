@@ -100,14 +100,14 @@
     "name": "berkeleytime",
     "description": "UC Berkeley enrollment info",
     "language": "TypeScript",
-    "stars": 88,
+    "stars": 89,
     "forks": 19,
     "topics": [
       "enrollment",
       "scheduling"
     ],
     "archived": false,
-    "fetchedAt": "2026-11-03T07:56:24.265Z"
+    "fetchedAt": "2026-11-10T08:27:54.400Z"
   },
   "taipei-doit/townpass2024-parking": {
     "full_name": "taipei-doit/townpass2024-parking",
@@ -127,10 +127,10 @@
     "name": "Claude-Code-Remote",
     "description": "Control Claude Code remotely via email、discord、telegram. Start tasks locally, receive notifications when Claude completes them, and send new commands by simply replying to emails.",
     "language": "JavaScript",
-    "stars": 1288,
+    "stars": 1287,
     "forks": 136,
     "topics": [],
     "archived": false,
-    "fetchedAt": "2026-11-08T07:24:23.141Z"
+    "fetchedAt": "2026-11-10T08:27:54.931Z"
   }
 }
